@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+	font-family: arial;
+	background: url(imagens/fundo.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+ }
+ h1{
+ 	font-size: 100px;
+ 	padding-top: 100px;
+ 	text-shadow: 2px 2px 2px gray;
+ 	margin-bottom: 15px;
+ }
+ h2{
+ 	font-size: 30px;
+ 	text-shadow: 1px 1px 1px gray;
+ }
+ p{
+ 	font-size: 20px;
+ 	text-shadow: 1px 1px 1px gray;
+ }
+ h3{
+ 	font-size: 25px;
+ }
+ h4{
+ 	font-size: 20px;
+ }
+ .botao{
+ 	text-decoration: none;
+ 	background-color: rgb(235,130,38);
+ 	color: white;
+ 	font-size: 20px;
+ 	padding: 10px 15px 10px 15px;
+ 	border-radius: 4px;
+ }
+ .botao:hover{
+ 	background-color: rgba(235,130,38,0.5);
+}
+ .lista{
+ 	list-style: none;
+ 	padding-left: 0;
+ 	margin-top: 150px;
+ }
+ .lista li{
+ 	display: inline;
+ }
+ .lista a{
+ 	color: rgb(235,130,38);
+ 	font-size: 50px;
+ }
+ .fas{
+ 	color: red;
+ }
